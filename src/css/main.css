@@ -280,6 +280,19 @@ Navbar
   display: none;
 }
 
+.logo {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.first-letter {
+  color: #133e59;
+}
+
+.first-letter {
+  color: #f5b52f
+}
+
 @media screen and (min-width: 768px) {
   .toggle-btn {
     display: none;
