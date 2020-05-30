@@ -24,9 +24,10 @@ const Hero = () => {
       <div className="section-center hero-center">
         <article className="hero-info">
           <div>
+            <h2>Hi</h2>
             <div className="underline"></div>
             <h1>I'm Shubham</h1>
-            <h4>Freelance Web and Mobile UI/UX Designer</h4>
+            <h4>A proud Web Designer and Developer</h4>
             <Link to="/contact" className="btn">Contact Me</Link>
             <SocialLinks />
           </div>
