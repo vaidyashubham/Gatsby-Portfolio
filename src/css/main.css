@@ -968,6 +968,34 @@ span {
   margin-left: 80px;
 }
 
+@media screen and (min-width: 576px) {
+  .contact-me {
+    text-align: center;
+    /* padding-top: 13px;
+    width: 200px; */
+    margin-left: 80px;
+  }
+
+  .new-projects span {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .contact-me {
+    text-align: center;
+    /* padding-top: 13px;
+    width: 200px; */
+    margin-left: 90px;
+  }
+
+  .new-projects span {
+    text-align: center;
+    margin-bottom: 5px !important;
+  }
+}
+
 /*
 ===============
 Footer
