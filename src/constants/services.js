@@ -1,5 +1,5 @@
 import React from "react"
-import { FaCode, FaPencilRuler, FaGraduationCap, FaSitemap } from "react-icons/fa"
+import { FaCode, FaPencilRuler, FaSitemap } from "react-icons/fa"
 export default [
   {
     id: 1,

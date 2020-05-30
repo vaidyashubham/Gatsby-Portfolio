@@ -7,6 +7,7 @@ import Jobs from "../components/Jobs"
 import Projects from "../components/Projects"
 import Blogs from "../components/Blogs"
 import SEO from '../components/SEO'
+import NewProject from '../components/StartAProject'
 
 export default ({ data }) => {
   const { allStrapiProjects: { nodes: projects },
@@ -20,6 +21,7 @@ export default ({ data }) => {
       <Jobs />
       <Projects projects={projects} title="featured projects" showLink />
       <Blogs blogs={blogs} title="blog" showLink></Blogs>
+      <NewProject />
     </Layout>
   )
 }
