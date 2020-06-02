@@ -10,7 +10,7 @@ const Services = () => {
         {services.map(service => {
           const { id, icon, title, text } = service
           return (
-            <article key={id} className="service">
+            <article key={id} className="service morphism">
               {icon}
               <h4>{title}</h4>
               <div className="underline"></div>

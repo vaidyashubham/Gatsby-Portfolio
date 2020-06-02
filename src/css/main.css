@@ -209,6 +209,14 @@ p {
   background: var(--clr-grey-10);
 }
 
+/* morphism */
+.morphism {
+  border-radius: 5px;
+  background: #fafafa;
+  box-shadow: 19px 19px 59px #676767,
+    -19px -19px 59px #ffffff;
+}
+
 /* page links */
 
 /* social links */
